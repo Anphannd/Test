@@ -19,3 +19,22 @@ html {
 ::-webkit-scrollbar {
     display: none;
 }
+// tablet
+@media (min-width: 740px) and (max-width: 1023px) {
+    .custom-header {
+    }
+}
+// mobile
+@media (max-width: 739px) {
+    .custom-headerInfo {
+        display: none;
+    }
+    // .custom-headerSearch {
+    //     width: ;
+    // }
+    .custom-promotion {
+        .custom-promotion {
+            margin: auto;
+        }
+    }
+}

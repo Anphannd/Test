@@ -1,5 +1,5 @@
 import React from 'react';
-import img from '../assets/img/img.png';
+import img from '../assets/img/bg (1).png';
 import icons from '../utils/Icons';
 import { MenuImg } from '../utils/Menu';
 const { IoIosArrowBack, IoIosArrowForward } = icons;
@@ -37,7 +37,7 @@ const Sileder = () => {
                     </div>
                 </div>
             </div>
-            <div className="mx-[255px] relative font-bai flex gap-5px">
+            <div className="mx-[255px]  font-bai flex gap-5px">
                 {MenuImg.map((item, index) => (
                     <div className="relative">
                         <img key={index} src={item.img} alt="img" />

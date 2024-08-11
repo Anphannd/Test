@@ -6,20 +6,20 @@ const { IoIosArrowDown, CiUser, PiShoppingCartSimpleLight, VscHeart } = icons;
 
 const Header = () => {
     return (
-        <div className="w-[1920px] h-[176px] bg-customWhite ">
+        <div className="w-[1920px] h-[176px] bg-customWhite custom-header ">
             <div className="border-b h-[40px] pt-[14px] ">
-                <div className="ml-[255px] mr-[255px] flex items-center font-medium text-13px font-bai ">
-                    <span className="flex flex-1">
+                <div className="ml-[255px] mr-[255px] flex items-center font-medium text-13px font-bai  ">
+                    <span className="flex flex-1 custom-promotion">
                         <span>You are a student and students get 20% discount. </span>
                         <span className="font-semibold underline">Learn More</span>
                     </span>
-                    <div className="flex gap-[20px] mr-[20px]">
+                    <div className="flex gap-[20px] mr-[20px] custom-headerInfo ">
                         <span>Store Locator</span>
                         <span>Order Tracking</span>
                         <span>FAQs</span>
                     </div>
                     <div className="border h-[14px] border-customBlack"></div>
-                    <div className="ml-[20px] flex  gap-[20px]">
+                    <div className="ml-[20px] flex  gap-[20px] custom-headerInfo">
                         <span className="flex items-center gap-1">
                             <span>English</span>
                             <IoIosArrowDown size={12} />
@@ -36,7 +36,7 @@ const Header = () => {
                     <div>
                         <img src={logo} alt="avatar" />
                     </div>
-                    <div className="flex flex-auto border-2 py-[14px] pl-[25px] items-center rounded-5px w-[782px] h-[45px] ml-[129px]">
+                    <div className="flex flex-auto border-2 py-[14px] pl-[25px] items-center rounded-5px w-[782px] h-[45px] ml-[129px] custom-headerSearch">
                         <span className="text-sm font-semibold mr-[26px]">All Categories</span>
                         <span>
                             <IoIosArrowDown size={12} />
@@ -69,7 +69,7 @@ const Header = () => {
                         </span>
                         <span className="flex items-center gap-4 ">
                             <span className="ml-[27px] relative">
-                                <PiShoppingCartSimpleLight className="w-[28px] h-[23px]" />
+                                <PiShoppingCartSimpleLight className="w-[28px] h-[23px] " />
                             </span>
                             <span className="bg-red-700 rounded-full w-[18px] h-[18px] absolute  text-customWhite text-10px flex items-center justify-center right-[-62px] top-[66px] ">
                                 2
