@@ -6,20 +6,20 @@ const { IoIosArrowDown, CiUser, PiShoppingCartSimpleLight, VscHeart } = icons;
 
 const Header = () => {
     return (
-        <div className="w-[1920px] h-[176px] bg-customWhite custom-header ">
+        <div className="w-[1920px] h-[176px] bg-customWhite  ">
             <div className="border-b h-[40px] pt-[14px] ">
                 <div className="ml-[255px] mr-[255px] flex items-center font-medium text-13px font-bai  ">
-                    <span className="flex flex-1 custom-promotion">
+                    <span className="flex flex-1 ">
                         <span>You are a student and students get 20% discount. </span>
                         <span className="font-semibold underline">Learn More</span>
                     </span>
-                    <div className="flex gap-[20px] mr-[20px] custom-headerInfo ">
+                    <div className="flex gap-[20px] mr-[20px]  ">
                         <span>Store Locator</span>
                         <span>Order Tracking</span>
                         <span>FAQs</span>
                     </div>
                     <div className="border h-[14px] border-customBlack"></div>
-                    <div className="ml-[20px] flex  gap-[20px] custom-headerInfo">
+                    <div className="ml-[20px] flex  gap-[20px] ">
                         <span className="flex items-center gap-1">
                             <span>English</span>
                             <IoIosArrowDown size={12} />
@@ -51,7 +51,7 @@ const Header = () => {
                             Search
                         </button>
                     </div>
-                    <div className="ml-[80px] flex items-center">
+                    <div className="ml-[80px] flex items-center custom-headerInfo">
                         <span className="flex items-center gap-1">
                             <span>
                                 <CiUser size={23} />

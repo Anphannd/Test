@@ -7,7 +7,7 @@ const Sileder = () => {
     return (
         <div className="flex flex-col gap-5px">
             <div className="mx-[255px] relative font-bai ">
-                <img className=" w-full pt-[30px] h-[409px]" src={img} alt="img" />
+                <img className=" w-full pt-[30px] h-[409px] " src={img} alt="img" />
                 <div className=" mt-[30px] absolute top-0 bottom-0 left-0 right-0 flex flex-col">
                     <div className="flex items-center flex-auto">
                         <button className="ml-[30px] font-normal text-customWhite bg-customBgbutton h-[50px] w-[50px] rounded-full flex items-center justify-center">
